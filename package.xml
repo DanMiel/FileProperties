@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
+
+  <name>Quick Measure</name>
+
+  <description>Measures selected features.</description>
+
+  <version>2022.10.28</version>
+
+  <date>2022-10-28</date>
+
+  <url branch="main" type="repository">https://github.com/DanMiel/QuickMeasure</url>
+
+  <url type="readme">https://github.com/DanMiel/QuickMeasure/blob/main/README.md</url>
+
+  <icon>Icons/QuickMeasure.svg</icon>
+
+  <content>
+    <workbench>
+      <classname>QuickMeasure</classname>
+      <subdirectory>./</subdirectory>
+    </workbench>
+  </content>
+
+</package>
