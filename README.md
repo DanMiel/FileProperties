@@ -14,11 +14,11 @@ Copy zip file to your machine. Unzip file an copy/Paste folder to FreeCAD/Mod fo
 
 ## Usage
 
-* Select the file Properties icon. If this is the first time you have ran this on a file a message will appear saying Properties are not found, do you awant to add them. 
-* Press yes and a dialog will show with default properties. To delete unwanted properties delete the name from the left hand column. To modify values change the values on the right. 
-* To add properties click the Add button and enter the name on the left and the value on the right side. 
-* Click SaveClose.
-* Changes can also be made in the data tab by highlighting the properties icon in the tree.
+* Select the file Properties icon. If this is the first time you have ran this on a file an Object called Properties will be created in your FreeCAD file. Highlighting this object will not show any properties.  
+* To add properties manually, click the new row button, then enter the Name in the left column and the value on the right. Press "SaveClose to save the properties and close the dialog. 
+* To add properties from a TechDraw drawing, open a file that has a Drawing page. Click the "From Drawing" button and the dialog box will fill with the properties from the drawing. This program will only use symbols which can be used in python. If you get an error message that an invalad symbol such as -, +, *, $ was used you will need to change the charater to an underscore or change the Name of the property. This can be done using a text editor and searching for the reported word. 
+* Change the property valus in the  right hand column and click "UpdateSave" to write the new values to the drawing and save them or click "SaveClose". 
+* Values can also be made in the data tab by highlighting the properties icon in the tree.
 * 
 
 ## Developer
